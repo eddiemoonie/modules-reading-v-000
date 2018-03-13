@@ -1,7 +1,7 @@
 require_relative './dance_module.rb'
 require_relative './class_methods_module.rb'
 
-class Kid
+#class Kid
 
   include Dance
 
@@ -14,9 +14,5 @@ class Kid
 end
 
 class Kid
-  extend MetaDancing
-end
-
-class Dancer
   extend MetaDancing
 end
